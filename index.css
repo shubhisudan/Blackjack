@@ -1,0 +1,103 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('table.png');
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: goldenrod;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+#rules-container {
+    width: 30%;
+    padding: 20px;
+}
+
+#game-container {
+    width: 40%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#player-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#player-hand {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#message-el {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.buttons {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: #016f32;
+    align-items: center;
+    width: 150px;
+    background-color: goldenrod;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f8d888;
+}
+
+.rules {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.rules h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.rules ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rules li {
+    text-align: left;
+    margin: 5px 0;
+}

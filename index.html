@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Blackjack</h1>
+    <div id="container">
+        <div id="rules-container">
+            <div class="rules">
+                <h2>Game Rules</h2>
+                <ul>
+                    <li>Aces (A) count as 11.</li>
+                    <li>Face cards (J, Q, K) count as 10.</li>
+                    <li>The goal is to get as close to 21 as possible without going over.</li>
+                    <li>If you get exactly 21, you have Blackjack!</li>
+                    <li>If you go over 21, you lose the game.</li>
+                </ul>
+            </div>
+        </div>
+        <div id="game-container">
+            <div id="player-info">
+                <p id="player-el"></p>
+                <p id="chips-el"></p>
+                <p id="bet-el">Bet: $0</p>
+            </div>
+            <div id="player-hand">
+                <p>Player's Cards:</p>
+                <p id="cards-el">Cards:</p>
+                <p id="sum-el">Sum:</p>
+            </div>
+            <p id="message-el">Want to play a round?</p>
+            <div id="buttons-container">
+                <button onclick="placeBet()">PLACE BET</button>
+                <button onclick="startGame()">START GAME</button>
+                <button onclick="newCard()">NEW CARD</button>
+                <button onclick="resetGame()">RESET GAME</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

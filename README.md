@@ -1,4 +1,11 @@
 ### Blackjack
 
-This project aims to provide an interactive and engaging experience for players to enjoy the classic casino game of Blackjack online. 
-It utilizes HTML, CSS, and JavaScript to create a responsive and visually appealing user interface that simulates the gameplay of Blackjack.
+The project aims to provide users with a virtual platform to enjoy and learn the intricacies of Blackjack in a fun and engaging manner. 
+
+Technologies Used:
+
+1. HTML: Provides the structure and content of the web pages.
+
+2. CSS: Styles the user interface for visual appeal and responsiveness.
+
+3. JavaScript: Implements game logic, user interactions, and dynamic updates.
